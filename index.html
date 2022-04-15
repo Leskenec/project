@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Секретный проект - "Котики"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="https://sb-cats.herokuapp.com/img/cat-fill.svg" alt="Бабуленькины котики" class="logo">
+        <h1><span class="logo-text">Бабуленькины котики</span></h1>
+    </header>
+    <div class="container">
+        <main class="content">
+            <ul class="cats-list">
+
+            </ul>
+        </main>
+    </div>
+    <footer class="footer ">©2022 All rights reserved</footer>
+
+    <div class="popup__cats-info">
+        <div class=" popup__container ">
+            <button type="button " class="close__popup ">x</button>
+            <img src="" alt="" class="popup__image">
+            <p class="popup__text"></p>
+        </div>
+    </div>
+    <template id="cat-tamplate">
+        <li class="cats-list__item cat">
+            <img src="" class="cat__image" alt="Котик">
+            <h3 class="cat__title">Лара</h3>
+            <p class="rate">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+                <img src="" alt="^_^">
+            </p>
+        </li>
+    </template>
+    <script src="cats.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
