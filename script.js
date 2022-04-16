@@ -1,6 +1,6 @@
 const popupCats = document.querySelector(".popup__cats-info");
-const popupCatsImage = popupCats.querySelector(".cat__image");
-const popupCatsText = popupCats.querySelector(".cat__text");
+const popupCatsImage = popupCats.querySelector(".popup__image");
+const popupCatsText = popupCats.querySelector(".popup__text");
 const catImages = document.querySelectorAll(".cats-list__item");
 const closePopupCats = document.querySelector(".close__popup");
 const cardTemplate = document.querySelector("#cat-tamplate");
@@ -51,8 +51,3 @@ function clickClosePopup() {
 
 
 closePopupCats.addEventListener("click", clickClosePopup)
-
-// catImages.forEach(image => {
-//     image.addEventListener("click", clickCatImage)
-
-// })
